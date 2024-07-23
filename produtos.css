@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+* {
+    font-family: "Outfit", sans-serif;
+    margin: 0%;
+    top: 0;
+}
+
+header {
+    background-image: url(/assest/header-galeria.2jpg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+}
+
+.Logo {
+    width: 20vw;
+    height: 20vh;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+} 
+
+header ul {
+    gap: 3rem;
+    list-style: none;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+
+header button {
+    width: 100px;
+    height: 30px;
+    background-color: transparent;
+    border-radius: 20px;
+    border: 1px solid;
+    margin-top: -5px;
+}
+
+/* ----------------------FIM HEADER------------------------- */
+
+.Produtoss h2 {
+    color: #0F8205;
+    text-align: center;
+    margin-top: 40px;
+    font-weight: 400;
+}
+
+.linhaPreta {
+    background-color: black;
+    width: 200px;
+    height: 2px;
+    margin-left: 580px;
+    margin-top: 30px;
+}
+
+section {
+    column-count: 4;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 90px;
+}
+
+section img {
+    width: 10vw;
+}
+
+.produto {
+    width: 15vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #83F696;
+    margin-bottom: 50px;
+}
+
+.produto h3 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.produto h2 {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+section div {
+    height: 30vh;
+    width: vw;
+}
+
+/* ---------------Segunda Parte---------------- */
+
+.texto-galeria h2{  
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.texto-galeria strong {
+    color: #54A061;
+    font-weight: 300;
+}
+
+.texto-galeria {
+    width: 70vw;
+    margin-left: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* -----------------------FOOTER------------------- */
+#page-footer {
+    background-color: #D90707;
+    margin-top: 90px;
+    height: 30vh;
+    text-align: center;
+}
+
+.contAtos {
+    display: flex;
+}
+
+.contato, .insta {
+    color: white;
+    margin-left: 20rem;
+    margin-top: 30px;
+    text-align: justify;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.copy {
+    color: white;
+
+    margin-top: 70px;
+}
+
+footer h3 {
+    font-weight: 200;
+}
+
+.linhaBranca {
+    background-color: white;
+    width: 90px;
+    height: 1px;
+    margin-bottom: 10px;    
+}
+
+.linhaBranca2 {
+    background-color: white;
+    width: 90px;
+    height: 1px;
+    margin-bottom: 10px;   
+}
+
+ul a {
+    text-decoration: none;
+    color: white;
+}
